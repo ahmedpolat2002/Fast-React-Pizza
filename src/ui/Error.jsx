@@ -7,9 +7,9 @@ function Error() {
   console.log(error);
 
   return (
-    <div>
+    <div className="px-3 py-4">
       <h1>Something went wrong 😢</h1>
-      <p>{error.data || error.message}</p>
+      <p className="mb-2">{error.data || error.message}</p>
 
       <LinkButton>&larr; Go back</LinkButton>
     </div>
